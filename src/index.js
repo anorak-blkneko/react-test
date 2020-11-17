@@ -9,7 +9,7 @@ function Welcome(propriedade) {
     </h1>
   );
 }
-const element_welcome = <Welcome nome="Rodrigues" />;
+const element_welcome = <Welcome nome="Renan" />;
 ReactDOM.render(element_welcome, document.getElementById("welcome"));
 
 function tick() {
