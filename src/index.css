@@ -1,0 +1,21 @@
+body {
+  background-color: #131313;
+}
+
+#root {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#user {
+  color: aquamarine;
+}
