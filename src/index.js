@@ -17,8 +17,15 @@ function tick() {
     <div>
       <h2>{new Date().toLocaleTimeString()}</h2>
     </div>
-  );
+      );
   ReactDOM.render(element_clock, document.getElementById("time"));
+
+  const element_date = (
+    <div>
+      <h2>{new Date().toLocaleDateString()}</h2>
+    </div>
+      );
+  ReactDOM.render(element_date, document.getElementById("date"));
 }
 
 setInterval(tick, 1000);
