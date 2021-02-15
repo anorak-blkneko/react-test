@@ -1,4 +1,4 @@
-# Getting Started with React
+# Relógio criado com react
 
 Esse projeto foi feito para aprender react usando a documentação oficial.
 
