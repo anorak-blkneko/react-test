@@ -6,7 +6,7 @@ class Welcome extends React.Component {
   render() {
     return (
       <h1>
-        Oi, <span id="usuario">{this.props.nome}</span>
+        Salve, <span id="usuario">{this.props.nome}</span>
       </h1>
     );
   }
@@ -70,6 +70,6 @@ class Clock extends React.Component {
   }
 }
 
-ReactDOM.render(<Welcome nome={"Renan"} />, document.getElementById("welcome"));
+ReactDOM.render(<Welcome nome={"Renan/Augusto"} />, document.getElementById("welcome"));
 
 ReactDOM.render(<Clock />, document.getElementById("clock"));
